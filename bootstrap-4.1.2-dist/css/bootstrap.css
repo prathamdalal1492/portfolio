@@ -554,6 +554,14 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.container1 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px; 
+  margin-right: auto;
+  margin-left: auto;
+}
 
 @media (min-width: 576px) {
   .container {
@@ -4376,7 +4384,8 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-width: 0;
+  min-width: 80;
+  max-height:300px ; 
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
